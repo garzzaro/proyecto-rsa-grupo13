@@ -145,6 +145,10 @@ with ayuda:
     if video.exists():
         with st.expander("Video demostrativo original"):
             st.video(str(video))
+    else:
+        with st.expander("Video demostrativo original"):
+            st.video("https://github.com/garzzaro/proyecto-rsa-grupo13/releases/download/v1.0.0/VIDEO.DEMOSTRATIVO.mp4")
+    st.link_button("Descargar ZIP original completo", "https://github.com/garzzaro/proyecto-rsa-grupo13/releases/download/v1.0.0/Grupo.No.13.Proyecto.1.zip")
 
 with codigo:
     st.subheader("Archivos originales intactos")

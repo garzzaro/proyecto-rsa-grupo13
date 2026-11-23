@@ -14,6 +14,7 @@ Para publicar:
 3. Elegir el repositorio, la rama y streamlit_app.py como archivo principal.
 4. Pulsar Deploy y comprobar que la aplicación permite acceso público.
 
-El archivo original/VIDEO DEMOSTRATIVO.mp4 tiene 95 MB: usar git para subirlo,
-porque supera el tamaño admitido por el cargador web de GitHub.
+El video y el ZIP original completo están también publicados sin modificaciones:
+https://github.com/garzzaro/proyecto-rsa-grupo13/releases/tag/v1.0.0
+La aplicación web carga el video desde esa versión si no está en original/.
 No subir contraseñas ni tokens al repositorio.
