@@ -1,0 +1,19 @@
+PUBLICAR EN STREAMLIT
+
+Los siete archivos del ZIP original están en original/ sin modificaciones.
+streamlit_app.py añade una interfaz web e importa crypto_rsa.py directamente.
+La interfaz de escritorio se sigue ejecutando con: python original/main.py
+
+Para ejecutar la versión web:
+  pip install -r requirements.txt
+  streamlit run streamlit_app.py
+
+Para publicar:
+1. Subir esta carpeta completa a un repositorio de GitHub.
+2. Abrir https://share.streamlit.io y seleccionar Create app.
+3. Elegir el repositorio, la rama y streamlit_app.py como archivo principal.
+4. Pulsar Deploy y comprobar que la aplicación permite acceso público.
+
+El archivo original/VIDEO DEMOSTRATIVO.mp4 tiene 95 MB: usar git para subirlo,
+porque supera el tamaño admitido por el cargador web de GitHub.
+No subir contraseñas ni tokens al repositorio.
