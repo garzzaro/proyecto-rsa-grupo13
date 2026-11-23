@@ -1,0 +1,5 @@
+# Dependencias del Proyecto Criptografía RSA - MM2015 (Grupo 13)
+# La interfaz gráfica está desarrollada 100% en Python utilizando CustomTkinter.
+# La lógica criptográfica modular (crypto_rsa.py) utiliza únicamente la biblioteca estándar.
+
+customtkinter>=5.2.0
